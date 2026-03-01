@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364072db3c43347879482c2b782e73b4, type: 3}
+  m_Name: CargoShip
+  m_EditorClassIdentifier: 
+  shipName: Pirate Ship
+  description: Bigger Ship to steal thy treasure.
+  shipImage: {fileID: 21300000, guid: 4719bc99d459d4874ac91aaa3be5833e, type: 3}
+  shipIcon: {fileID: 21300000, guid: 4719bc99d459d4874ac91aaa3be5833e, type: 3}
+  cost: 0
+  coinCost: 0
+  woodCost: 500
+  ironCost: 250
+  clothCost: 150
+  maxSpeed: 50
+  acceleration: 4
+  turnSpeed: 40
+  cargoCapacity: 500
+  shipPrefab: {fileID: 7175650450719551219, guid: 99c5deab025cc4729a327385b051c1fe, type: 3}
+  dockedShipModel: {fileID: 7175650450719551219, guid: be4914716d7a14355b916db93891220a, type: 3}
+  isUnlocked: 0

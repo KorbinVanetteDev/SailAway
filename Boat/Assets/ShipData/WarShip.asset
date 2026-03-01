@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364072db3c43347879482c2b782e73b4, type: 3}
+  m_Name: WarShip
+  m_EditorClassIdentifier: 
+  shipName: War Ship
+  description: This is the fastest and best ship to collect gold!
+  shipImage: {fileID: 21300000, guid: a6fb16ed7e1414dd1afb9a25c02c5112, type: 3}
+  shipIcon: {fileID: 21300000, guid: a6fb16ed7e1414dd1afb9a25c02c5112, type: 3}
+  cost: 0
+  coinCost: 0
+  woodCost: 150
+  ironCost: 75
+  clothCost: 50
+  maxSpeed: 30
+  acceleration: 4
+  turnSpeed: 40
+  cargoCapacity: 50
+  shipPrefab: {fileID: 180809127517029555, guid: 6c685df39e3ce4a4595f191e06ac80d7, type: 3}
+  dockedShipModel: {fileID: 180809127517029555, guid: 66e35ec90e1dd4f9c8beeff5c9146f3f, type: 3}
+  isUnlocked: 0
